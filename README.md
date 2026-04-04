@@ -4,4 +4,4 @@ Thanks!
 
 ## Where to learn the syntax?
 the syntax docs is available in this repository or under:
-[Link](https://)
+[lo3 DOCS](https://lo3-lang.github.io)
