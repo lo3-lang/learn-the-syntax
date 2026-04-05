@@ -1,0 +1,13 @@
+site_name: lo3 - learn the syntax
+site_url: https://lo3-lang.github.io/learn-the-syntax/
+docs_dir: docs
+site_dir: site
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+nav:
+  - Home: index.md
+  - Syntax: syntax.md
+  - Examples: examples.md

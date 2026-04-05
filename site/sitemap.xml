@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://lo3-lang.github.io/learn-the-syntax/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://lo3-lang.github.io/learn-the-syntax/examples/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://lo3-lang.github.io/learn-the-syntax/syntax/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://lo3-lang.github.io/learn-the-syntax/docs/wiki/faq/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+    <url>
+         <loc>https://lo3-lang.github.io/learn-the-syntax/docs/wiki/internals/</loc>
+         <lastmod>2026-04-05</lastmod>
+    </url>
+</urlset>
