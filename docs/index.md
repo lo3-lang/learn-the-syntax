@@ -11,7 +11,7 @@ lo3 yourfile.lo3
 ## Hello World
 
 ```
-#n _msg $0
+#n _msg $3
 #= _msg _Hello
 #o %msg $0
 ```
