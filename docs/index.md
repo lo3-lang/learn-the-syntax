@@ -22,9 +22,10 @@ lo3 yourfile.lo3
 | :--- | :--- |
 | ALU Operations | ✅ |
 | Control Flow | ❌ |
+| Func Calling | ❌ |
 | Input/STDIN | ✅ |
 | Output/STDOUT | ✅ |
-| Variables | ✅ |
-| g[] | ❌ |
+| Operating with vars | ✅ |
+| Operating with g[] | ❌ |
 
 [→ Learn the syntax](syntax.md)

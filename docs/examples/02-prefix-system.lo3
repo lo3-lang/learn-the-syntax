@@ -1,0 +1,14 @@
+// A simple Hello-World!
+// This file is: CC0 License
+// @seesee010
+////////////////////////// CODE:
+
+// Avaible types are:
+// '/' = double, '*' = some might call it "some magic crap" / global array!, '$' = integer value, '%' = will be resolved, '_' = String
+#o $100 $0
+#o _hello $0
+
+#o /1.0 $0
+#o *0 $0
+
+////////////////////////// ENDOF CODE
