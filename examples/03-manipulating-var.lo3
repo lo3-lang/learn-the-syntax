@@ -1,0 +1,33 @@
+// Manipulating with vars
+// This file is: CC0 License
+// @seesee010
+////////////////////////// CODE:
+
+// create new var
+#n _newVarName $0
+// NOTE: arg0: varname, arg1: type (= 0(=int), 2(=double), 3(=string)) YES ... THERE IS NOT TYPO IN HERE... THERE IS NO 1 !!!
+
+// newVarName = 100;
+#= _newVarName $100
+
+// free your var before existing (= good practise!)
+#f _newVarName $0
+
+// End of code
+#0 $0 $0
+////////////////////////// ENDOF CODE
+// this is not the same as:
+#= %newVarName $100
+
+// NOTE: '%' types as spoken in docs generally, are directly resolved...
+// So from var called "abc" = 100, and somebody writes %abc, it will do the following:
+
+// What the user want:
+#= %abc $100
+
+// Will be translated to:
+#= 100 100
+
+// So you can see that there is in fact no var name anymore, ... and where should the value be stored?!
+// This code would be an error.
+//////////////////////////

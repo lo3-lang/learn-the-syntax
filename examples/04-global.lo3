@@ -1,0 +1,41 @@
+// Global Array System!
+// This file is: CC0 License
+// @seesee010
+////////////////////////// CODE:
+
+#= _g0 $100
+// this code does following:
+// assign $100 to the global array index 0
+
+// normaly with _X, var will be found if you use #=, BUT:
+// if the next char is 'g' it will read the next char too. 
+// Else it is a var.
+
+// IMPORTANT NOTE:
+// This does not mean that var like: _GOOD are not supported anymore...
+// it will look for num after 'G'. else it is just a var.
+
+// AND:
+// It is also possible to use like "g100ee" as var names...
+
+// It will just go through every single char and if every are right it is from global array, else it is just a var name.
+
+#0 $0 $0
+////////////////////////// ENDOF CODE
+
+// IMPORTANT NOTE:
+
+// If you wann get the same resolve, which a var gets use '*' which will be resolved... Like:
+// global[100] contains the string "myVar"
+// so *100 resolves to: _myVar
+#= *100 $100
+
+// which becomes:
+#= _myVar $100
+
+#= *100 $100
+
+// Or if g[100] contains a value (like = 123), it could lead to an resolve of:
+#= $123 $100 
+
+// Which would lead to an error!

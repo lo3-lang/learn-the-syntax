@@ -1,0 +1,23 @@
+// A simple Hello-World!
+// This file is: CC0 License
+// @seesee010
+////////////////////////// CODE:
+
+// Cmd with 'o' will write something into stdout.
+// It will only output arg0! (= cmd | arg0 | arg1)! Spaces will be interpreted that the new arg begins!
+#o _Hello-World $0
+
+// arg1 is an dummy value! Every cmd needs 2 args!!!
+
+#0 $0 $0
+
+////////////////////////// ENDOF CODE
+// NOTE:
+// lo3 does not require a special comment char.
+// Use anything you want. Everyting but '#', because if the first char of the line
+// is that, it will be interpreted as a cmd.
+
+// But for simplicy this docs will use "//" for an comment!
+// You could also write like:
+
+Hello world, this is a comment, dont worry! This line will be skipped.
