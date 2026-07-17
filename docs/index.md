@@ -14,17 +14,19 @@ lo3 yourfile.lo3
 #o "Hello, World!"
 ```
 
-## Features
-(-> tag:v0.3.0)
+## Progress
+(-> tag: v0.3.0)
 
 | Feature | Status |
 | :--- | :--- |
 | ALU Operations | ✅ |
 | Control Flow | ✅ |
-| Func Calling | ⚠️ |
+| Func Calling | ✅ |
 | Input/STDIN | ✅ |
 | Output/STDOUT | ✅ |
 | Operating with vars | ✅ |
-| Operating with g[] | ✅ |
+| Operating with g[] | ⚠️ %2% |
+| Manually exiting with 0 or 1 | ✅ |
+| Auto exiting | ✅ |
 
 [→ Learn the syntax](syntax.md)
