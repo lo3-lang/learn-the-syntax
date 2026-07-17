@@ -29,4 +29,7 @@ lo3 yourfile.lo3
 | Manually exiting with 0 or 1 | ✅ |
 | Auto exiting | ✅ |
 
+%2%: to set some value into g[] is only possible with the buildin macro system.
+get g[X]... from every cmd
+
 [→ Learn the syntax](syntax.md)
