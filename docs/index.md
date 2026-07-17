@@ -11,21 +11,20 @@ lo3 yourfile.lo3
 ## Hello World
 
 ```
-#n _msg $3
-#= _msg _Hello
-#o %msg $0
+#o "Hello, World!"
 ```
 
 ## Features
+(-> tag:v0.3.0)
 
 | Feature | Status |
 | :--- | :--- |
 | ALU Operations | ✅ |
-| Control Flow | ❌ |
-| Func Calling | ❌ |
+| Control Flow | ✅ |
+| Func Calling | ⚠️ |
 | Input/STDIN | ✅ |
 | Output/STDOUT | ✅ |
 | Operating with vars | ✅ |
-| Operating with g[] | ❌ |
+| Operating with g[] | ✅ |
 
 [→ Learn the syntax](syntax.md)
