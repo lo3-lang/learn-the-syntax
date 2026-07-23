@@ -1,4 +1,4 @@
-// only run on tag:v0.3.1
+// only run on tag:v0.3.0 or higher
 
 // create new array
 // `#n` creates a new variable, the first arg is the name and the second is the type
