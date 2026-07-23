@@ -2,12 +2,6 @@
 
 **lo3** is an interpreted token based programming language written in C.
 
-## Quick Start
-
-```bash
-lo3 yourfile.lo3
-```
-
 ## Hello World
 
 ```
