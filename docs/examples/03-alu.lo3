@@ -7,21 +7,21 @@
 #+ "a" $2
 
 #o "a += 2: "
-#o $a
+#o %a
 #o "\n"
 
 // varName -= the number 2
 #- "a" $2
 
 #o "a -= 2: "
-#o $a
+#o %a
 #o "\n"
 
 // varName /= the number 2
 #/ "a" $2
 
 #o "a /= 2: "
-#o $a
+#o %a
 #o "\n"
 
 // varName *= the number 2
