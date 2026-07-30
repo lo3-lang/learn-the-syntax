@@ -1,6 +1,6 @@
 // only run on tag:v0.3.0 or higher
 
-// create new array
+// create new variable
 // `#n` creates a new variable, the first arg is the name and the second is the type
 // there are: 0 for numbers (?= int), 2 for doubles (?= not supported yet), 3 for strings
 #n "name" $0
