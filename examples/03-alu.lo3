@@ -1,0 +1,36 @@
+// only run on tag:v0.3.1
+
+// create var called "a", type "number"
+#n "a" $0
+
+// varName += the number 2
+#+ "a" $2
+
+// print("a += 2: ", a, "\n");
+#o "a += 2: "
+#o %a
+#o "\n"
+
+// varName -= the number 2
+#- "a" $2
+
+// print("a -= 2: ", a, "\n");
+#o "a -= 2: "
+#o %a
+#o "\n"
+
+// varName /= the number 2
+#/ "a" $2
+
+// print("a /= 2: ", a, "\n");
+#o "a /= 2: "
+#o %a
+#o "\n"
+
+// varName *= the number 2
+#* "a" $2
+
+// print("a *= 2: ", a, "\n");
+#o "a *= 2: "
+#o %a
+#o "\n"

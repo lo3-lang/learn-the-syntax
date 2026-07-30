@@ -1,0 +1,19 @@
+// only run on tag:v0.3.1 or higher
+
+// use syntax sugar here, which is the only way
+@{0:$234, 11: _hello-world, 5: $0}
+
+// output *0 = $234
+#o *0
+
+// use g[] as a stack
+#n "tmp" $0
+
+// reset stack
+#x
+
+// push $4 onto stack
+#p $4
+
+// take a certain value out of the stack, pop into var "tmp"
+#t "tmp"
