@@ -36,4 +36,5 @@
 
 // before calling "#o", resolve %a to `$4`
 // it will output `$4`
-#o %a
+// v0.1.0 and v.0.2.0: every cmd requires 2 arg
+#o %a $0
