@@ -1,4 +1,4 @@
-// only run on tag:v0.3.x
+// only run on tag:v0.3.0 or higher
 
 // print to the stdout "Hello, World!"
 #o "Hello, World!"
