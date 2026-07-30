@@ -1,0 +1,39 @@
+// only run on tag:v0.1.0 or higher
+
+// don't mind the next line, ignore it for now
+@.#
+
+// you may have also seen different types so far —
+// here is a full list:
+/**
+** v0.1.0
+** prefix:
+** -----
+** number (=> i32) = $
+** string = _ (no spaces, no closing quote), e.g.: `_abc`
+** double = /
+** var = %
+** array = *
+
+** v0.3.0 (diff only)
+** prefix:
+** -----
+** string = _ or ""
+**/
+
+// Resolving a var
+/**
+** `%`: tells the interpreter to look up the variable — before passing "%X" to a cmd, it resolves to its value first, e.g. var x = $4, %x <- `$4`
+** `*`: resolves from g[], a global array (g[100] is the max index), so `*100` will REPLACE the value with its field before running the cmd, e.g. #+
+**/
+
+// you may have seen these lines before — here is the detailed explanation.
+// create var: here you must use "_" because v0.1.0 only knows that syntax. I use v0.1.0 here for backwards-compatibility, since `""` would only be valid v0.3.0 or higher
+#n _a $0
+
+// assign a = number 4
+#= _a $4
+
+// before calling "#o", resolve %a to `$4`
+// it will output `$4`
+#o %a
