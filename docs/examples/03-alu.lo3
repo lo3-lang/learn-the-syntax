@@ -6,6 +6,7 @@
 // varName += the number 2
 #+ "a" $2
 
+// print("a += 2: ", a, "\n");
 #o "a += 2: "
 #o %a
 #o "\n"
@@ -13,6 +14,7 @@
 // varName -= the number 2
 #- "a" $2
 
+// print("a -= 2: ", a, "\n");
 #o "a -= 2: "
 #o %a
 #o "\n"
@@ -20,6 +22,7 @@
 // varName /= the number 2
 #/ "a" $2
 
+// print("a /= 2: ", a, "\n");
 #o "a /= 2: "
 #o %a
 #o "\n"
@@ -27,6 +30,7 @@
 // varName *= the number 2
 #* "a" $2
 
+// print("a *= 2: ", a, "\n");
 #o "a *= 2: "
-#o $a
+#o %a
 #o "\n"
